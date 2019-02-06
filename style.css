@@ -1,0 +1,199 @@
+.navbar-brand {
+  font-family: sans-serif!important;
+  letter-spacing: 2px;
+  color: black!important;
+}
+.navbar-brand span{
+  font-size: 150%;
+  color: green;
+}
+.item{
+  font-size: 150%!important;
+  color: red!important;
+  letter-spacing: 2px;
+}
+#homepage p{
+}
+.col-sm-4{
+  margin-bottom: 50px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+  text-align: center;
+}
+.card img{
+  border-radius: 50%;
+}
+.card blockquote{
+  text-align: left;
+    color: #9d9d9d;
+    height: 150px;
+}
+.below{
+  height: 150px;
+
+}
+#nextcard{
+  display: block;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#nextcard h1{
+  font-size: 500%;
+}
+#nextcard h5{
+  font-size: 250%;
+}
+#nextcard a{
+  margin-top: 20px;
+}
+
+.row div{
+  padding: 50px 0!important;
+}
+
+
+#trackbox{
+  text-align: center;
+  padding: 30px 0;
+}
+input[type="text"]{
+  padding: 15px 5px;
+  text-align: center;
+}
+input[type="submit"]{
+  margin-left: 10px;
+  width: 100px;
+}
+
+
+
+
+
+
+/***************************************************/
+/*Contact Us*/
+.cont p{
+  color: #9d9d9d!important;
+}
+
+#footer .col-sm-3{
+  text-align: center;
+}
+#footer .col-sm-3 input[type="text"]{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#connected{
+  color: rgb(0,96,192);
+  text-align: center;
+}
+
+#cols4 {
+  text-align: left!important;
+}
+/**** *********************************** *  *********************/
+/*ABOUT US*/
+#aboutpage .card{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%!important;
+  margin-top: 50px;
+}
+#aboutpage img{
+  width: 30%;
+  height: 200px;
+  border-radius: none!important;
+}
+#aboutpage .card-text{
+  text-align: left;
+}
+/********************************************************/
+/*wwd */
+#wwd .card img{
+  border-radius: 0px!important;
+  width: 100%;
+}
+#wwd #trackbox img{
+  height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #depoinfo{
+    width: 90%;
+  }
+  .login{
+    margin-top: 10px;
+  }
+  .login img{
+    width: 17%!important;
+  }
+  .login #box{
+    width: 95%!important;
+  }
+
+  #depositor{
+    padding: 10px 0;
+  }
+  .navbar-brand{
+    font-size: 11px!important;
+  }
+  .card blockquote{
+      height: auto;
+  }
+  .below{
+    height: auto;
+
+  }
+
+  #footer .col-sm-3{
+
+  }
+  #cols2 h1{
+    margin: 5%;
+  }
+  #connected{
+     font-size: 350%;
+  }
+  #cols2{
+    text-align: left!important;
+  }
+
+  .row div {
+    padding: 10px 0!important;
+  }
+  #cols4 h4{
+    text-align: center;
+  }
+  #cols4 div{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input[type="submit"] {
+
+    width: 95%;
+  }
+
+  #aboutpage img{
+    width: 60%;
+
+  }
+
+  #wwd #trackbox img {
+    height: 170px;
+}
+}
+
+#footer{
+  margin-top: 30px;
+  background: #31383d;
+  color: #fff;
+}
